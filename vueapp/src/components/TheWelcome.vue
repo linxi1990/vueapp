@@ -8,6 +8,8 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
+  <p>Message is: {{ message }}</p>
+  <input v-model="message" placeholder="edit me" />
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
