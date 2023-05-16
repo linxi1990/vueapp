@@ -19,7 +19,7 @@ const message = ref('hello vue')
     </template>
     <template #heading>Documentation</template>
 
-    Vue’ssss
+    Vue
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
     provides you with all information you need to get started.
   </WelcomeItem>
